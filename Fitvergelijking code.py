@@ -17,8 +17,8 @@ def fit_vergelijking(n_glas, d, i, r, lapda):
 # Constanten
 n_glas = 1.5
 n_lucht = 1.00029
-d = 1e6
-lapda = 532
+d = 2e-3
+lapda = 532e-9
 i = np.radians(np.linspace(0, 10, 10))
 r = np.arcsin(((n_lucht * np.sin(i)) / n_glas))
 
